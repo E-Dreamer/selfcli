@@ -1,0 +1,22 @@
+{
+  "name": "self-vue-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "selfVueCli": "./test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.2.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.0.7",
+    "ora": "^4.0.5"
+  }
+}
