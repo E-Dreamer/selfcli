@@ -22,3 +22,14 @@ npm link 可以不用下载npm -g 也可以使用命令
 bin:{
   
 }
+
+
+
+//页面性能测试
+//window.performance
+//内存消耗 -memory
+//页面加载时间 timing.navigationStart - timing.domComplete
+//tcp建立链接时间 timing.connectStart - timing.connectEnd
+//资源响应时间 timing.responseStart - timing.responseEnd
+//dom渲染时间: timing.domComplete - timing.domLoading
+//dns 域名解析时间  timing.domainLookupStart - timing.domainLookupEnd
